@@ -318,8 +318,9 @@ width: 250px;
 	background-color: #ededed;
 }
 
-#pic1 .img,#pic2 .img{
+#pic1 .img,#pic2 .img ,#pic3 .img{
 	border: 3px solid black;
+	border-radius:50px;
 }
 
 #div5 img,#div9 img{
