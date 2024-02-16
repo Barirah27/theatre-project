@@ -138,7 +138,11 @@ border: 2px solid rgb(133 121 90 / 52%);;
 
 .btn1:hover,
 .btn2:hover,
-.btn3:hover{
+.btn3:hover,
+.btn4:hover,
+#div6 button:hover,
+#div7 button:hover,
+#div10 button:hover{
 /*	background-color: #595757;*/
     background-color: rgb(133 121 90 / 52%);;
 	box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2) , 0 0 10px rgba(0, 0, 0, 0.2);
@@ -148,7 +152,11 @@ border: 2px solid rgb(133 121 90 / 52%);;
 
 .btn1:active,
 .btn2:active,
-.btn3:active{
+.btn3:active,
+.btn4:active,
+#div6 button:active,
+#div7 button:active,
+#div10 button:active{
 /*	background-color: #484646;*/
     background-color: #484646;
 	outline: none;
@@ -192,9 +200,9 @@ border: 2px solid rgb(133 121 90 / 52%);;
     font-style: italic;
     text-align: center;
     color: black;
-    text-decoration: double underline;
+  /*  text-decoration: double underline;
     text-decoration-thickness: 2px;
-    text-decoration-color: #8f752985 ;
+    text-decoration-color: #8f752985 ;*/
 }
 
 .small img{
@@ -316,25 +324,101 @@ width: 250px;
 #pic1,#pic3{
 	display: flex;
 	background-color: #ededed;
+	height: 600px;
+}
+
+#pic2{
+	height: 600px;
 }
 
 #pic1 .img,#pic2 .img ,#pic3 .img{
 	border: 3px solid black;
-	border-radius:50px;
+    border-radius: 50px;
 }
 
 #div5 img,#div9 img{
-margin:30px 60px;
+margin:100px 60px;
 object-fit: cover;
 height:400px;
 width: 600px;
 }
 
-#div6 img,#div10 img{
-margin:10px 70px ;
+#div6 ,#div7,#div10 {
+border: 2px double black;
 object-fit: cover;
-height:440px;
-width: 490px;
+height:400px;
+width: 575px;
+margin:100px 0px;
+border-radius: 10px;
+}
+
+#div7{
+	margin-left: 37px !important;
+}
+
+#div6 .welcoming , #div10 .welcoming{
+	margin-top: 50px;
+	font-size: 35px;
+	padding-right: 100px;
+    line-height: 100px;
+    color: black;
+    text-align:right;
+    font-style: italic;
+    text-decoration: double underline;
+    text-decoration-thickness: 2px;
+    text-decoration-color: #8f752985 ;
+   }
+
+#div6 .p1 ,#div10 .p1{
+	margin-top: 0px;
+	font-size: 23px;
+	text-align: center;
+	padding:  0px 150px;
+    line-height: 33px;
+    font-weight: bold;
+    font-style: italic;
+    color: black;
+}
+
+#div6 button,#div7 button,#div10 button{
+   text-align: center;
+	font-size: 13px;
+	outline: none;
+	color: white;
+	line-height: 25px;
+   padding: 4px 12px;
+   margin:25px 30px;
+    border: 2px solid rgb(133 121 90 / 52%);;
+  background-color:#a38f5685;
+    border-radius: 10px;
+}
+
+ #div10 h1{
+	padding-right: 144px !important; 
+}
+
+#div7 .p1{
+margin-top: 0px;
+	font-size: 23px;
+	text-align: center;
+	padding:  0px 130px;
+    line-height: 33px;
+    font-weight: bold;
+    font-style: italic;
+    color: black;
+}
+
+#div7 .welcoming{
+	margin-top: 50px;
+	font-size: 35px;
+	padding-right: 85px;
+    line-height: 100px;
+    color: black;
+    text-align:right;
+    font-style: italic;
+    text-decoration: double underline;
+    text-decoration-thickness: 2px;
+    text-decoration-color: #8f752985 ;
 }
 
 #pic2{
@@ -342,15 +426,8 @@ width: 490px;
 /*	background-color: #777;*/
 }
 
-#div7 img{
-margin:20px 70px ;
-object-fit: cover;
-height:440px;
-width: 490px;
-}
-
 #div8 img{
-margin:40px 60px;
+margin:100px 60px;
 object-fit: cover;
 height:400px;
 width: 600px;
@@ -506,7 +583,7 @@ margin: 5px auto;
 
 #e-mail {
 	font-style: italic;
-	color: white;
+	color: black;
     margin: 20px 0px;
     padding: 5px 29px;
     border-radius: 10px;
@@ -519,9 +596,9 @@ margin: 5px auto;
 
 span{
 	font-style: italic;
-	text-decoration: underline;
+/*	text-decoration: underline;
     text-decoration-thickness: 2px;
-    text-decoration-color: #8f752985 ;
+    text-decoration-color: #8f752985 ;*/
 }
 
 .btn4 {
